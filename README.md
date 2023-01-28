@@ -2,7 +2,7 @@
 
 ## Install and run virtual environment
 
-py -3 -m venv .venv
+py -3 -m venv .venv \n
 .venv\scripts\activate
 
 ## Variables in .env

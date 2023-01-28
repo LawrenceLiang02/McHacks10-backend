@@ -29,7 +29,7 @@ def searchCommand():
     for label in query:
         labels.append(json.loads(SearchCalorieNinja(label.description)))
 
-    print(jsonify(labels))
+    # print(jsonify(labels))
     # query = request.json["query"]
     # data = SearchCalorieNinja(query)
     return jsonify(labels)

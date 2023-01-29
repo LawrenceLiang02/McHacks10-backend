@@ -3,7 +3,7 @@
 ## Install and run virtual environment
 ```sh
 py -3 -m venv .venv
-.venv\scripts\activate
+.venv\Scripts\activate
 ```
 
 ## Install all dependencies

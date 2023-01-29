@@ -47,10 +47,18 @@ def searchCommand():
         if (food == '{"items": []}'):
             print("Empty")
         else:
-            # f = open('.\dfood.txt','r')
-            # for 
-            # if (f.readline == ):
             labels.append(json.loads(food))
+            # foodObj  = json.loads(food)
+            # file1 = open('.\dfood.txt','r')
+            # lines = file1.readlines()
+            # print(foodObj['items'])
+            # for line in lines:
+            #     for j in foodObj['items']:
+            #         print(j)
+            #         if j['name'] == line: 
+            #             print(line)
+            #             labels.append(json.loads(food))
+            #             break
 
 
     return jsonify(labels)

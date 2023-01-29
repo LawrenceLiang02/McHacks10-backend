@@ -47,7 +47,10 @@ def searchCommand():
         if (food == '{"items": []}'):
             print("Empty")
         else:
-            labels.append(json.loads(SearchCalorieNinja(label.description)))
+            # f = open('.\dfood.txt','r')
+            # for 
+            # if (f.readline == ):
+            labels.append(json.loads(food))
 
 
     return jsonify(labels)

@@ -13,7 +13,7 @@ pip install -r requirements.txt
 
 ## Variables in .env
 ```sh
-CalrorieNinja=[KEY]
+CalorieNinja=[KEY]
 ```
 
 ## Google vision api key

@@ -30,5 +30,5 @@ py -m flask --app BackendApi run
 
 ### URLs from local host
 ```sh
-http://127.0.0.1:5000/searc
+http://127.0.0.1:5000/search
 ```

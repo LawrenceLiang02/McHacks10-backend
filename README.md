@@ -1,5 +1,7 @@
 # McHacks10-backend
 
+Link to frontend: https://github.com/siwuagain/mchacks_frontend
+
 ## Install and run virtual environment
 ```sh
 py -3 -m venv .venv

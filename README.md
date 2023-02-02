@@ -8,12 +8,12 @@ Windows:
 py -3 -m venv .venv
 .venv\Scripts\activate
 
-Linux
+Linux:
 sudo apt-get install python3-venv    # If needed
 python3 -m venv .venv
 source .venv/bin/activate
 
-macOS
+macOS:
 python3 -m venv .venv
 source .venv/bin/activate
 
@@ -26,11 +26,11 @@ pip install -r requirements.txt
 
 ## Variables in .env
 ```sh
-CalorieNinja=[KEY]
+CalorieNinja=
 ```
 
 ## Google vision api key
-
+Generate your own API keys with Google Cloud.
 File name: cred.json
 ```sh
 DM me or once you have that set up you will have everything lol
